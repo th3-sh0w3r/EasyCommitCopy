@@ -1,5 +1,5 @@
 {
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"name": "GitHub Commit Copy",
 	"description": "This extension copies the 7 character long commit ID (including the link), when you click on the copy icon next to the commit ID",
 	"version": "1.0",
@@ -12,7 +12,6 @@
 	],  
 	"permissions": [
 		"activeTab",
-		"tabs",
-		"https://ajax.googleapis.com/"
+		"tabs"
 	]
 }
